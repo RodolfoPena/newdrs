@@ -1,0 +1,133 @@
+<%= render 'shared/navbar' %>
+<div class="main-container">
+    <section class="bg-dark text-white space-xlg">
+        <!-- <img alt="Image" src="assets/img/photo-road.jpg" class="bg-image opacity-40" /> -->
+        <div class="container">
+            <div class="row text-center justify-content-center section-intro">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <h1 class="display-3">En sus marcas, <br> ITOs, Yá!</h1>
+                    <span class="lead">Match entre proyectos y profesionales del sector </span>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <form class="card card-sm">
+                        <div class="card-body row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <i class="icon-magnifying-glass h4 text-body"></i>
+                            </div>
+                            <!--end of col-->
+                            <div class="col">
+                                <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Busca por palabras cláves" />
+                            </div>
+                            <!--end of col-->
+                            <div class="col-auto">
+                                <button class="btn btn-lg btn-success" type="submit">Buscar</button>
+                            </div>
+                            <!--end of col-->
+                        </div>
+                    </form>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+            <div class="row text-center">
+                <div class="col">
+                    <a href="#" class="btn btn-secondary mb-1">Minería</a>
+                    <a href="#" class="btn btn-secondary mb-1">Infraestructura</a>
+                    <a href="#" class="btn btn-secondary mb-1">Energia</a>
+                    <a href="#" class="btn btn-secondary mb-1">Telecomunicaciones</a>
+                    <a href="#" class="btn btn-secondary mb-1">Ingeniería</a>
+                    <a href="#" class="btn btn-secondary mb-1">Edificación</a>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center text-center section-intro">
+                <div class="col-12 col-md-9 col-lg-8">
+                    <span class="title-decorative">DRS INGENIERÍA Y GESTIÓN</span>
+                    <h2 class="display-4">Prepárense para el cambio</h2>
+                    <span class="lead">Esta es una gran oportunidad para conectar conocimiento y experiencia con desafíos profesionales ingeniería y gestión </span>
+
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 text-center">
+                    <%= image_tag 'graphic-developer-bootstrap.png', class:'avatar avatar-lg'%>
+                    <%= image_tag 'graphic-developer-bootstrap.png', class:'avatar avatar-lg'%>
+                    <%= image_tag 'graphic-developer-bootstrap.png', class:'avatar avatar-lg'%>
+                    <%= image_tag 'graphic-developer-bootstrap.png', class:'avatar avatar-lg'%>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="accordion" id="accordion-1" data-children=".accordion-item">
+                        <div class="accordion-item">
+                            <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-1" aria-expanded="true" aria-controls="accordion-1">
+                                <h5>Profesionales</h5>
+                                <i class="h5 icon-chevron-small-right"></i>
+                            </a>
+                            <div id="accordion-panel-1" class="collapse show" role="tabpanel">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <a data-toggle="collapse" data-parent="#accordion-1" href="#accordion-panel-2" aria-expanded="false" aria-controls="accordion-1">
+                                <h5>Proyectos</h5>
+                                <i class="h5 icon-chevron-small-right"></i>
+                            </a>
+                            <div id="accordion-panel-2" class="collapse" role="tabpanel">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+    <section class="bg-white fullwidth-split">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-5 col-lg-6 order-sm-2 fullwidth-split-image d-sm-flex align-items-center">
+                  <%= image_tag 'photo-man-whiteboard.jpg', class:' bg-image'%>
+                </div>
+                <!--end of col-->
+                <div class="col-12 col-sm-7 col-lg-6 order-sm-1 fullwidth-split-text">
+                    <div class="col-12 col-sm-8">
+                        <span class="title-decorative">mejora tu ranking</span>
+                        <h3 class="display-4">Proceso de certificación profesional DRS</h3>
+                        <span class="lead">
+                            Valida tu conocimiento y experiencia en gestión de proyectos con nuestro partner Obeya basado en Lean Toyota
+                        </span>
+                        <a href="#" class="btn btn-outline-primary btn-lg">Tell me more</a>
+                    </div>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+    <%= render 'shared/footer' %>
+    </div>
